@@ -48,9 +48,9 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data.Entity" />
-    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <!--<Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
-    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Helpers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />-->
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -69,6 +69,19 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+
+<Reference Include="System.Web.Mvc">
+      <HintPath>.\bin\System.Web.Mvc.dll</HintPath>
+    </Reference>
+<Reference Include="System.Web.WebPages">
+      <HintPath>.\bin\System.Web.WebPages.dll</HintPath>
+    </Reference>
+
+<Reference Include="System.Web.Helpers">
+      <HintPath>.\bin\System.Web.Helpers.dll</HintPath>
+    </Reference>
+
+
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AccountController.cs" />
